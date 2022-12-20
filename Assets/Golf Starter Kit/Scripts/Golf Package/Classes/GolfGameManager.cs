@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using UnityEngine.Events;
 using System.Collections;
+using UnityEngine.SceneManagement;
 
 namespace MyApp.Golf
 {
@@ -95,6 +96,9 @@ namespace MyApp.Golf
         [RuntimeInitializeOnLoadMethod]
         public static void staticInit()
         {
+            if (SceneManager.GetActiveScene().name == "Splash")
+                return;
+
             if (FindObjectOfType<GolfGameManager>() == null)
             {
                 var node = new GameObject("_GolfGameManagerNode");

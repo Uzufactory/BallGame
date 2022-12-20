@@ -4,5 +4,26 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Golf Starter Kit/Scene/Splash.unity
+    guid: d615dc4d8b36446289566603a3c6a6b2
+  - enabled: 1
+    path: Assets/Golf Starter Kit/Scene/Demo_1.unity
+    guid: a863564fe0889e345847bd936e41d239
+  - enabled: 1
+    path: Assets/Golf Starter Kit/Scene/Demo_2.unity
+    guid: f9e611d9f1bc3d440bddaeba524fa8f7
+  - enabled: 1
+    path: Assets/Golf Starter Kit/Scene/Demo_3.unity
+    guid: 3a6e74e22e93ccb4982e9896b979d41c
+  - enabled: 1
+    path: Assets/Golf Starter Kit/Scene/Demo_4.unity
+    guid: 623966811e9699648b29825c29522b76
+  - enabled: 1
+    path: Assets/Golf Starter Kit/Scene/Demo_5.unity
+    guid: ffa263e4cbaffb24c91941749d981de3
+  - enabled: 1
+    path: Assets/Golf Starter Kit/Scene/Demo_6.unity
+    guid: d83e587b0270cdc41b7091da748b9aa7
   m_configObjects: {}
